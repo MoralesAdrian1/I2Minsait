@@ -9,16 +9,12 @@ import { TaskFormPage } from "./pages/TaskFormPage";
 import { LoginPage } from "./pages/LoginPage";
 import { TasksPage } from "./pages/TasksPage";
 import { TaskProvider } from "./context/tasksContext";
-import { datosPProvider } from "./context/datosPContext";
-import DatosPsPage from "./pages/DatosPsPage";
-import DatosPFormPage from "./pages/DatosPFormPage";
 import ProfilePage from "./pages/ProfilePage";
 
 function App() {
   return (
     <AuthProvider>
       <TaskProvider>
-        <datosPProvider>
         <BrowserRouter>
           <main className="container content-container mx-auto px-10 md:px-0">
             <Navbar />
@@ -30,15 +26,11 @@ function App() {
                 <Route path="/tasks" element={<TasksPage />} />
                 <Route path="/add-task" element={<TaskFormPage />} />
                 <Route path="/tasks/:id" element={<TaskFormPage />} />
-                <Route path="/datosPs" element={<DatosPsPage/>}/>
-                <Route path="/add-datosP" element={< DatosPFormPage/>}/>
-                <Route path="/datosP/:id" element={< DatosPFormPage/>}/>
                 <Route path="/profile" element={<ProfilePage/>} />
               </Route>
             </Routes>
           </main>
         </BrowserRouter>
-        </datosPProvider>
       </TaskProvider>
     </AuthProvider>
   );

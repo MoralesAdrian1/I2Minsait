@@ -20,7 +20,6 @@ export function Navbar() {
             </li>
             <li>
               <ButtonLink to="/add-task">Add Task</ButtonLink>
-              <ButtonLink to="/add-datosP">Datos Personales</ButtonLink>
             </li>
             <li>
               <Link to="/" onClick={() => logout()}>
