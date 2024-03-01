@@ -1,5 +1,5 @@
-import DatosP from "../models/datosP.model"
 
+import DatosP from "../models/datosP.model.js";
 export const getAllDatosP =async(req, res) =>{
     try{
     const datosP = await DatosP.find({

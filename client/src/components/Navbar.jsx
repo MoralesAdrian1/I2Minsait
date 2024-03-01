@@ -22,6 +22,12 @@ export function Navbar() {
               <ButtonLink to="/add-task">Add Task</ButtonLink>
             </li>
             <li>
+              <ButtonLink to="/datosP">Datos personales</ButtonLink>
+            </li>
+            <li>
+              <ButtonLink to="/add-datosP"> ADD Datos personales</ButtonLink>
+            </li>
+            <li>
               <Link to="/" onClick={() => logout()}>
                 Logout
               </Link>

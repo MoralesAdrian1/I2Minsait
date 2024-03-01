@@ -7,9 +7,9 @@ export function DatosPCard({ datosP }) {
   return (
     <Card>
       <header className="flex justify-between">
-        <h1 className="text-2xl font-bold">{datosP.title}</h1>
+        <h1 className="text-2xl font-bold">Datos Personales</h1>
         <div style={{ backgroundColor: '#070F2B' }} className="flex gap-x-2 items-center">
-          <Button onClick={() => deleteDatosP(task._id)}>Delete</Button>
+          <Button onClick={() => deleteDatosP(datosP._id)}>Delete</Button>
           <ButtonLink to={`/datosP/${datosP._id}`}>Edit</ButtonLink>
         </div>
       </header>
