@@ -11,8 +11,7 @@ function HomePage() {
         <p className="text-md text-slate-400">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos
           fugit doloremque molestias recusandae labore repellat amet dicta tempore
-          necessitatibus facilis repellendus voluptas ducimus maiores deserunt sed
-          quo ratione provident debitis aut, voluptatem aliquam iste blanditiis
+          necessitatibuss aut, voluptatem aliquam iste blanditiis
           ex? Voluptatibus, fuga quasi necessitatibus cumque optio error enim,
           officia accusantium vitae doloremque, molestias modi.
         </p>
